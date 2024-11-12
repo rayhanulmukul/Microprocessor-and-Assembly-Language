@@ -1,0 +1,358 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Rayhanul Islam, University of Rajshahi, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\rayha.TESLA_MUKUL\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.11.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\rayha.TESLA_MUKUL\AppData\Local\Keil_v5\Project\Threat.uvprojx
+Project File Date:  11/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\rayha.TESLA_MUKUL\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+Validate Run Time Environment: errors/warnings detected:
+'Keil::Device:StdPeriph Drivers:GPIO@3.6.0': warning #515: Additional software components required
+ require Device:StdPeriph Drivers:Framework: Select component from list
+    'Keil::Device:StdPeriph Drivers:Framework'
+'Keil::Device:StdPeriph Drivers:RCC@3.6.0': warning #515: Additional software components required
+ require Device:StdPeriph Drivers:Framework: Select component from list
+    'Keil::Device:StdPeriph Drivers:Framework'
+'Keil::Device:StdPeriph Drivers:TIM@3.6.0': warning #515: Additional software components required
+ require Device:StdPeriph Drivers:Framework: Select component from list
+    'Keil::Device:StdPeriph Drivers:Framework'
+'Keil::Device:StdPeriph Drivers:USART@3.6.0': warning #515: Additional software components required
+ require Device:StdPeriph Drivers:Framework: Select component from list
+    'Keil::Device:StdPeriph Drivers:Framework'
+compiling threat.c...
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(132): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  132 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(183): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  183 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(305): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  305 |   assert_param(IS_USART_123_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(353): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  353 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(392): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  392 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(450): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  450 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(478): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  478 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(501): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  501 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(520): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  520 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(549): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  549 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(568): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  568 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(594): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  594 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(611): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  611 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(627): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  627 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(643): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  643 |   assert_param(IS_USART_123_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(663): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  663 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(682): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  682 |   assert_param(IS_USART_123_PERIPH(USARTx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(707): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  707 |   assert_param(IS_USART_123_PERIPH(USARTx));  
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_usart.c(733): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  733 |   assert_param(IS_USART_ALL_PERIPH(USARTx));
+      |   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f10x_usart.c...
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(272): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  272 |   assert_param(IS_RCC_HSE(RCC_HSE));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(337): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  337 |   assert_param(IS_RCC_CALIBRATION_VALUE(HSICalibrationValue));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(356): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  356 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(382): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  382 |   assert_param(IS_RCC_PLL_SOURCE(RCC_PLLSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(403): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  403 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(567): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  567 |   assert_param(IS_RCC_SYSCLK_SOURCE(RCC_SYSCLKSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(611): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  611 |   assert_param(IS_RCC_HCLK(RCC_SYSCLK));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(637): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  637 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(663): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  663 |   assert_param(IS_RCC_PCLK(RCC_HCLK));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(702): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  702 |   assert_param(IS_RCC_IT(RCC_IT));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(730): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  730 |   assert_param(IS_RCC_USBCLK_SOURCE(RCC_USBCLKSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(769): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  769 |   assert_param(IS_RCC_ADCCLK(RCC_PCLK2));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(832): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  832 |   assert_param(IS_RCC_LSE(RCC_LSE));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(865): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  865 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(882): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  882 |   assert_param(IS_RCC_RTCCLK_SOURCE(RCC_RTCCLKSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(896): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  896 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(1067): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1067 |   assert_param(IS_RCC_AHB_PERIPH(RCC_AHBPeriph));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(1098): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1098 |   assert_param(IS_RCC_APB2_PERIPH(RCC_APB2Periph));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_rcc.c(1129): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1129 |   assert_param(IS_RCC_APB1_PERIPH(RCC_APB1Periph));
+      |   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f10x_rcc.c...
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(110): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  110 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(177): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  177 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(285): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  285 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(307): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  307 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(323): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  323 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(345): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  345 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(360): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  360 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(376): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  376 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(396): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  396 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(419): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  419 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(436): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  436 |   assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(465): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  465 |   assert_param(IS_GPIO_EVENTOUT_PORT_SOURCE(GPIO_PortSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(485): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  485 |   assert_param(IS_FUNCTIONAL_STATE(NewState));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(553): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  553 |   assert_param(IS_GPIO_REMAP(GPIO_Remap));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(612): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  612 |   assert_param(IS_GPIO_EXTI_PORT_SOURCE(GPIO_PortSource));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_gpio.c(631): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  631 |   assert_param(IS_GPIO_ETH_MEDIA_INTERFACE(GPIO_ETH_MediaInterface)); 
+      |   ^
+16 errors generated.
+compiling stm32f10x_gpio.c...
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(124): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  124 |   assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(230): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  230 |   assert_param(IS_TIM_ALL_PERIPH(TIMx)); 
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(283): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  283 |   assert_param(IS_TIM_LIST8_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(366): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  366 |   assert_param(IS_TIM_LIST6_PERIPH(TIMx)); 
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(448): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  448 |   assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(527): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  527 |   assert_param(IS_TIM_LIST3_PERIPH(TIMx)); 
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(589): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  589 |   assert_param(IS_TIM_CHANNEL(TIM_ICInitStruct->TIM_Channel));  
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(658): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  658 |   assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(714): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  714 |   assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(808): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  808 |   assert_param(IS_TIM_ALL_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(833): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  833 |   assert_param(IS_TIM_LIST2_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(874): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  874 |   assert_param(IS_TIM_ALL_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(911): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  911 |   assert_param(IS_TIM_ALL_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(939): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  939 |   assert_param(IS_TIM_LIST4_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(966): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  966 |   assert_param(IS_TIM_LIST9_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(991): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  991 |   assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1010): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1010 |   assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1038): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1038 |   assert_param(IS_TIM_LIST6_PERIPH(TIMx));
+      |   ^
+C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/src/stm32f10x_tim.c(1079): error: call to undeclared function 'assert_param'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+ 1079 |   assert_param(IS_TIM_LIST3_PERIPH(TIMx));
+      |   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f10x_tim.c...
+".\Objects\Threat.axf" - 73 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.MDK-Middleware.7.17.0.pack
+                Keil::MDK-Middleware@7.17.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Buttons Version: 1.0.0
+   * Component: LED Version: 1.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Buttons Version: 2.0.0
+   * Component: LED Version: 2.0.0
+   * Component: GPIO Version: 1.3
+   * Component: Startup Version: 1.0.0
+   * Component: GPIO Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+   * Component: TIM Version: 3.6.0
+   * Component: USART Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.17.0/Board
+  C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc
+  C:/Users/rayha.TESLA_MUKUL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Buttons(API)@1.0.0
+      Include file:  Board/Board_Buttons.h
+
+   * Component: ::Board Support:LED(API)@1.0.0
+      Include file:  Board/Board_LED.h
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Board Support&MCBSTM32C:Buttons@2.0.0
+      Source file:   Boards/Keil/MCBSTM32C/Common/Buttons_MCBSTM32C.c
+
+   * Component: Keil::Board Support&MCBSTM32C:LED@2.0.0
+      Source file:   Boards/Keil/MCBSTM32C/Common/LED_MCBSTM32C.c
+
+   * Component: Keil::Device:GPIO@1.3
+      Include file:  RTE_Driver/GPIO_STM32F10x.h
+      Source file:   RTE_Driver/GPIO_STM32F10x.c
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_rcc.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_tim.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_tim.c
+
+   * Component: Keil::Device:StdPeriph Drivers:USART@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_usart.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_usart.c
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
